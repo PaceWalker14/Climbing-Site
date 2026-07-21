@@ -24,7 +24,7 @@ Then open http://localhost:4173. (serve.py is plain `http.server` plus a `Cache-
   - "Visit us": three location cards with CityROCK's real addresses and hours; each links out to Google Maps directions.
   - Only `transform`/`opacity` are animated; `will-change` only on the hero stages.
 - `assets/stage-*.jpg` — the three zoom-stage photos (generated with Higgsfield Seedream V5 Lite, chained image references for continuity; originals re-downloadable from the Higgsfield account). The `stage-*.svg` files are the earlier vector versions, kept as backups.
-- `assets/offer-*.jpg/.jpeg` — photos downloaded from cityrock.co.za (their copyright; fine for this local concept, replace before any public use).
+- `assets/offer-*.jpg/.jpeg` — offering photos (climbing walls, yoga, gear shop, kids/teams), all generated with Higgsfield Seedream V5 Lite — original imagery, safe to publish.
 - `assets/bg-climber.jpg` — hand-drawn line-art climber (Higgsfield-generated) used as the ghosted background of "Three cities, endless walls" via `mix-blend-mode: multiply` at low opacity, with gentle parallax.
 
 ## Reduced motion / testing
