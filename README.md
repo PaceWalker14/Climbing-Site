@@ -5,6 +5,7 @@ A personal experiment in building **scroll-driven web animations**. I used
 imagery) to see how far I could push a modern, cinematic scroll experience —
 a hero that zooms from a distant mountain, down to a wall, down to a climber,
 followed by sections that reveal, count, and parallax as you scroll.
+This is based off my local climbing gym but i created my own photos using higgsfield to avoid any copyright.
 
 ## Please note
 
