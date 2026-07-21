@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+<linearGradient id="atmo" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#2C3E50" stop-opacity="0.3"/>
+<stop offset="60%" stop-color="#0E1520" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="holdGlow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#E8734A" stop-opacity="0.65"/>
+<stop offset="100%" stop-color="#E8734A" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="vig" cx="46%" cy="45%" r="75%">
+<stop offset="0%" stop-color="#0E1520" stop-opacity="0"/>
+<stop offset="100%" stop-color="#060809" stop-opacity="0.6"/>
+</radialGradient>
+</defs>
+
+<rect width="1600" height="1000" fill="#151F2B"/>
+
+<g stroke="#0A0F16" stroke-width="3" opacity="0.85">
+<polygon points="0,0 900,0 650,380 0,520" fill="#1B2735"/>
+<polygon points="900,0 1600,0 1600,420 650,380" fill="#243342"/>
+<polygon points="0,520 650,380 720,700 0,780" fill="#2C3E50"/>
+<polygon points="650,380 1600,420 1600,760 720,700" fill="#33465A"/>
+<polygon points="0,780 720,700 760,1000 0,1000" fill="#0E1520"/>
+<polygon points="720,700 1600,760 1600,1000 760,1000" fill="#182430"/>
+</g>
+<rect width="1600" height="1000" fill="url(#atmo)"/>
+
+<!-- rope -->
+<path d="M866,0 C840,180 900,320 852,470 C816,580 838,640 828,650" fill="none" stroke="#E8734A" stroke-width="5" opacity="0.85" stroke-linecap="round"/>
+
+<!-- hold glow + hold -->
+<circle cx="1055" cy="355" r="70" fill="url(#holdGlow)"/>
+<ellipse cx="1055" cy="355" rx="27" ry="16" fill="#E8734A"/>
+
+<!-- climber silhouette, reaching -->
+<g fill="#0E1520">
+<circle cx="828" cy="558" r="34"/>
+<polygon points="795,600 866,590 880,762 800,780"/>
+</g>
+<g stroke="#0E1520" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<path d="M808,762 L742,858 700,952" stroke-width="30"/>
+<path d="M855,770 L900,878 954,950" stroke-width="26"/>
+<path d="M800,610 L740,660 700,722" stroke-width="22"/>
+<path d="M856,600 L950,478 1030,384" stroke-width="22"/>
+</g>
+<circle cx="700" cy="722" r="16" fill="#0E1520"/>
+
+<!-- chalk dust -->
+<g fill="#D8CFC2">
+<circle cx="686" cy="700" r="6" opacity="0.4"/>
+<circle cx="712" cy="742" r="4" opacity="0.3"/>
+<circle cx="664" cy="736" r="3" opacity="0.35"/>
+<circle cx="700" cy="680" r="3" opacity="0.3"/>
+<circle cx="1020" cy="370" r="5" opacity="0.35"/>
+<circle cx="1000" cy="400" r="3" opacity="0.3"/>
+<circle cx="1040" cy="330" r="3" opacity="0.28"/>
+</g>
+
+<rect width="1600" height="1000" fill="url(#vig)"/>
+</svg>

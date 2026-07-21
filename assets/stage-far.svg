@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#0B1119"/>
+<stop offset="45%" stop-color="#1B2735"/>
+<stop offset="72%" stop-color="#3C4F60"/>
+<stop offset="100%" stop-color="#7C8A90"/>
+</linearGradient>
+<radialGradient id="sunGlow" cx="74%" cy="60%" r="42%">
+<stop offset="0%" stop-color="#E8734A" stop-opacity="0.55"/>
+<stop offset="45%" stop-color="#E8734A" stop-opacity="0.16"/>
+<stop offset="100%" stop-color="#E8734A" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="cliffShade" x1="0" y1="0" x2="1" y2="0.15">
+<stop offset="0%" stop-color="#20303F"/>
+<stop offset="100%" stop-color="#0A0F16"/>
+</linearGradient>
+</defs>
+
+<rect width="1600" height="1000" fill="url(#sky)"/>
+<rect width="1600" height="1000" fill="url(#sunGlow)"/>
+
+<!-- farthest hazy ridge -->
+<path d="M0,600 L120,562 240,588 360,542 500,580 640,548 780,584 920,556 1060,588 1200,560 1340,592 1600,566 L1600,1000 L0,1000 Z" fill="#6B7A83" opacity="0.32"/>
+
+<!-- mid hazy ridge -->
+<path d="M0,662 L150,614 300,650 430,602 560,646 700,608 850,654 1000,616 1150,658 1300,620 1450,664 1600,630 L1600,1000 L0,1000 Z" fill="#3C4F60" opacity="0.5"/>
+
+<!-- prominent midground cliff -->
+<path d="M948,762 L966,600 992,522 1012,462 1038,408 1062,440 1082,482 1102,542 1122,602 1142,682 1152,762 Z" fill="url(#cliffShade)"/>
+<line x1="1038" y1="408" x2="984" y2="560" stroke="#E8734A" stroke-width="3" opacity="0.45" stroke-linecap="round"/>
+
+<!-- near ridge -->
+<path d="M0,762 L180,704 340,748 500,694 660,742 820,698 980,748 1140,704 1300,752 1460,708 1600,748 L1600,1000 L0,1000 Z" fill="#1B2735" opacity="0.88"/>
+
+<!-- foreground ridge -->
+<path d="M0,864 L200,812 380,852 560,802 740,848 920,808 1100,852 1280,812 1460,856 1600,818 L1600,1000 L0,1000 Z" fill="#0E1520"/>
+
+<!-- tiny birds -->
+<g stroke="#0E1520" stroke-width="3" fill="none" opacity="0.65" stroke-linecap="round">
+<path d="M300,220 q10,-14 20,0 q10,-14 20,0"/>
+<path d="M362,258 q8,-11 16,0 q8,-11 16,0"/>
+<path d="M248,300 q7,-10 14,0 q7,-10 14,0"/>
+<path d="M420,190 q9,-12 18,0 q9,-12 18,0"/>
+</g>
+</svg>
